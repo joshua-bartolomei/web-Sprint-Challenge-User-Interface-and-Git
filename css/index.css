@@ -70,6 +70,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.up, a {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+    
+}
 
 .top-content {
     display: flex;
@@ -112,6 +128,46 @@ p {
     justify-content: center;
 }
 
+ #one{
+     background-color: teal;
+ }
+
+ #two{
+    background-color: gold;
+ }
+
+ #three{
+     background-color: cadetblue;
+ }
+
+ #four{
+     background-color: coral;
+ }
+
+ #five{
+     background-color: crimson;
+ }
+
+ #six{
+     background-color: forestgreen;
+ }
+
+ #seven{
+     background-color: darkorchid;
+ }
+
+ #eight{
+     background-color: hotpink;
+ }
+
+ #nine{
+     background-color: indigo;
+ }
+
+ #ten{
+     background-color: dodgerblue;
+ }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +200,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* starting my about page below here*/
+
+
+.jumbo-about {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.about-page div .upper .lower .picture-box .how-box .places-box .collab-box{
+    border-bottom: dotted black 2px;
+    padding-bottom: 2px;
+}
+
+.picture-box .how-box{
+    margin-right: 5%;
+
+}
+
+.places-box .collab-box{
+    margin-left: 5%;
+}
+
+.upper{
+    display: flex;
+    margin: 5% 0;
+    flex-flow: row wrap;
+    padding: 5%;
+}
+
+.lower {
+    display: flex;
+    margin: 5% 0;
+    flex-flow: row wrap;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.learn {
+    border-radius: 20%;
+    background-color: white;
+    border: solid black 2px;
+    padding: 1% 2%;
+    font-weight: bold;
+}
+
+    
