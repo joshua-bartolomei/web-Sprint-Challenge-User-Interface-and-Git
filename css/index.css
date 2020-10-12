@@ -210,9 +210,13 @@ footer nav a {
  justify-content: center;
 }
 
-.about-page div .upper .lower .picture-box .how-box .places-box .collab-box{
+.about-page, .upper, .lower, .picture-box, .how-box, .places-box .collab-box{
     border-bottom: dotted black 2px;
     padding-bottom: 2px;
+}
+
+.about-page{
+    text-align: left;
 }
 
 .picture-box .how-box{
@@ -229,12 +233,14 @@ footer nav a {
     margin: 5% 0;
     flex-flow: row wrap;
     padding: 5%;
+    justify-content: center;
 }
 
 .lower {
     display: flex;
     margin: 5% 0;
     flex-flow: row wrap;
+    justify-content: center;
     padding: 5%;
 }
 
