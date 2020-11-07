@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*css reset above*/
 * {
     box-sizing: border-box;
 }
@@ -203,6 +203,11 @@ footer nav a {
 
 /* starting my about page below here*/
 
+.page {
+    width: 800px;
+margin: 0 auto;
+}
+
 
 .jumbo-about {
  display: flex;
@@ -217,8 +222,9 @@ footer nav a {
 
 .about-page{
     text-align: left;
+    
 }
-
+/*
 .picture-box .how-box{
     margin-right: 5%;
 
@@ -226,22 +232,41 @@ footer nav a {
 
 .places-box .collab-box{
     margin-left: 5%;
-}
+}*/
 
 .upper{
     display: flex;
     margin: 5% 0;
-    flex-flow: row wrap;
-    padding: 5%;
-    justify-content: center;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  
 }
 
 .lower {
     display: flex;
     margin: 5% 0;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 5%;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.picture-box {
+    display: flex;
+    align-items: center;
+}
+
+.how-box {
+    display: flex;
+    align-items: center
+}
+
+.places-box {
+    display: flex;
+    align-items: center;
+}   
+
+.collab-box {
+    display: flex;
+    align-items: center;
 }
 
 a {
